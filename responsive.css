@@ -52,3 +52,58 @@
         margin-top: 40px;
     }
 }
+
+@media screen and (max-width:768px) {
+    body {
+        margin: 0 auto;
+    }
+    .row {
+        width: 768px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    #lezioni .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-grow: 1;
+        background-color: #ccccad;
+    }
+    #lezioni .row>.left, #lezioni .row>.right {
+        width: 100%;
+    }
+    #lezioni .row h1, #steps .row h1, #why .row h1 {
+        font-size: 2.5em;
+        margin: 15px 0;
+    }
+    #lezioni .row h3, #steps .row h3, #why .row h3 {
+        font-size: 1.5em;
+        margin: 10px 0;
+    }
+    #steps .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-grow: 1;
+    }
+    #steps .row>.left, #steps .row>.central, #steps .row>.right {
+        width: 100%;
+        margin: 10px 0;
+    }
+    #steps .row {
+        background-color: #f9f9f9;
+    }
+    #why .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-grow: 1;
+        background-color: #ccccad;
+    }
+    #why .row hr {
+        background-color: black;
+    }
+    #why .row>.first, #why .row>.second, #why .row>.third {
+        margin-top: 40px;
+    }
+}
